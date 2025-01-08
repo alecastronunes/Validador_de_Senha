@@ -26,10 +26,6 @@ passwordInput.addEventListener("keyup", () => {
   let percent = Math.floor((strength / 4) * 100);
   progressBar.style.width = `${percent}%`;
 
-  if(percent === 100) {
-    alert("Senha verificada com sucesso!!!")
-  }
-
   //   if (passwordInput.value.match(/([a-z].*[A-Z])|([A-Z].*[a-z])/)) {
   //     // strength += 1;
   //     renderRule(".low-upper-case", true);
